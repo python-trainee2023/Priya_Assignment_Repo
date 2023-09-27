@@ -5,7 +5,7 @@ from functools import reduce
 
 num = input("Enter two starting and ending numbers")
 start, end = num.split(",")
-value = range(int(start), int(end))
+value = range(int(start), int(end) + 1)
 
 even_list = list(filter(lambda x: x % 2 == 0, value))
 odd_list = list(filter(lambda x: x % 2 != 0, value))
