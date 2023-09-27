@@ -1,7 +1,7 @@
 # take the input for the start and stop value for a range. Then get the sum of odd and even numbers
 # within that range using function or lambda and display that.
 
-from functools import reduce
+# from functools import reduce
 
 num = input("Enter two starting and ending numbers")
 start, end = num.split(",")
